@@ -1,0 +1,30 @@
+#ifndef SYSTICK_CONFIG_H
+#define SYSTICK_CONFIG_H
+
+
+/*
+    OPTIONS:
+    AHB_DEVIDED_BY_8
+    AHB_DEVIDED_BY_1
+*/
+#define SYSTICK_CLOCK_SOURCE        AHB_DEVIDED_BY_8
+
+/*
+    OPTIONS:
+    ENABLE_INTERRUPT
+    DISABLE_INTERRUPT
+*/
+#define SYSTICK_INTERRUPT           DISABLE_INTERRUPT
+
+/*
+    OPTIONS:
+    ENABLE
+    DISABLE
+*/
+#define SYSTICK_ENABLE              ENABLE
+
+
+
+
+
+#endif
