@@ -18,4 +18,7 @@
 #define CLR_REG(REG_NAME,VALUE)     REG_NAME=0x00
 #define GET_REG(REG_NAME)           REG_NAME
 
+
+/*END*/
+
 #endif
