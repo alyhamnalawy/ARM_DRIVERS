@@ -10,9 +10,11 @@ C_SRCS += \
 ../src/EXTI_program.c \
 ../src/GPIO_main.c \
 ../src/GPIO_program.c \
+../src/HLEDMatrix_program.c \
 ../src/IR.c \
 ../src/NVIC_program.c \
 ../src/RCC_program.c \
+../src/SPI_program.c \
 ../src/SSD_main.c \
 ../src/SSD_program.c \
 ../src/SysTick_main.c \
@@ -27,9 +29,11 @@ OBJS += \
 ./src/EXTI_program.o \
 ./src/GPIO_main.o \
 ./src/GPIO_program.o \
+./src/HLEDMatrix_program.o \
 ./src/IR.o \
 ./src/NVIC_program.o \
 ./src/RCC_program.o \
+./src/SPI_program.o \
 ./src/SSD_main.o \
 ./src/SSD_program.o \
 ./src/SysTick_main.o \
@@ -44,9 +48,11 @@ C_DEPS += \
 ./src/EXTI_program.d \
 ./src/GPIO_main.d \
 ./src/GPIO_program.d \
+./src/HLEDMatrix_program.d \
 ./src/IR.d \
 ./src/NVIC_program.d \
 ./src/RCC_program.d \
+./src/SPI_program.d \
 ./src/SSD_main.d \
 ./src/SSD_program.d \
 ./src/SysTick_main.d \

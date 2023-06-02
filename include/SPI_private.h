@@ -21,12 +21,10 @@ typedef struct
 	
 }SPI_t;
 
-#define MSPI_1          ( (SPI_t        *)(_SPI_1_BASE_ADDRESS))        
-#define MSPI_2          ( (SPI_t        *)(_SPI_2_BASE_ADDRESS)) 
-#define MSPI_3          ( (SPI_t        *)(_SPI_3_BASE_ADDRESS)) 
-#define MSPI_4          ( (SPI_t        *)(_SPI_4_BASE_ADDRESS))
-
-
+#define MSPI_1          ((SPI_t *)(_SPI_1_BASE_ADDRESS))
+#define MSPI_2          ((SPI_t *)(_SPI_2_BASE_ADDRESS))
+#define MSPI_3          ((SPI_t *)(_SPI_3_BASE_ADDRESS))
+#define MSPI_4          ((SPI_t *)(_SPI_4_BASE_ADDRESS))
 
 
 

@@ -74,7 +74,7 @@ void MSPI1_vInit(void)
 			MSPI_1 ->CR1 |=(MSPI1_FPCLK<<3U);
 /*****************       SPI enable       *****************/
 		SET_BIT(MSPI_1 ->CR1,SPE);
-
+#endif
 
 }
 

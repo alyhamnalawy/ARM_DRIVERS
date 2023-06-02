@@ -1,6 +1,7 @@
 #ifndef SPI_CONFIG_H
 #define SPI_CONFIG_H
 
+#define MSPI1_STATUS _SPI1_ENABLE
 /*
 	-option :
 			 _SPI1__MODE0
