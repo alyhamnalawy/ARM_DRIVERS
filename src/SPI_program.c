@@ -73,14 +73,14 @@ void MSPI1_vInit(void)
 			MSPI_1 ->CR1 &=0XFFC7;
 			MSPI_1 ->CR1 |=(MSPI1_FPCLK<<3U);
 /*****************       SPI enable       *****************/
-		SET_BIT(MSPI_1 ->CR1,SPE);
+		SET_BIT(MSPI_1->CR1,SPE);
 #endif
 
 }
 
 u8 MSPI1_u8Transceive(u8 Copy_u8Data)
 {
-	u8 L_u8Resive=0U;
+	u8 L_u8Resive=0;
 	/* Wait BSY Flag */
 while ( GET_BIT(MSPI1 ->SR , BSY ) == 1 );	
 	/* Write Data */
