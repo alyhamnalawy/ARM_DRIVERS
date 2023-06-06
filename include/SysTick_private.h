@@ -2,9 +2,6 @@
 #define SYSTICK_PRIVATE_H
 
 
-
-
-
 #define AHB_DEVIDED_BY_8    0
 #define AHB_DEVIDED_BY_1    1
 

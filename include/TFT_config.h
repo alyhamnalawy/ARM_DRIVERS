@@ -1,0 +1,8 @@
+#ifndef RCC_CONFIG_H
+#define RCC_CONFIG_H
+
+#define HTFT_A0_PORT_PIN		GPIOA_PORT, PIN_0
+#define HTFT_CS_PORT_PIN		GPIOA_PORT, PIN_1
+#define HTFT_RST_PORT_PIN		GPIOA_PORT, PIN_1
+
+#endif

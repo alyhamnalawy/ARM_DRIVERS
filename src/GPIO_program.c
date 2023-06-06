@@ -154,3 +154,22 @@ void GPIO_voidSetReset(u8 Copy_u8PortName,u16 Copy_u16PinNumber,u8 Copy_u8State)
 	}
 }
 
+void GPIO_voidSetAlternativeFunction(u8 Copy_u8PortName,u16 Copy_u16PinNumber,u8 Copy_u8AlternativeFunction)
+{
+	switch(Copy_u8PortName)
+	{
+	case GPIOA_PORT:
+		if(Copy_u8PortName<=7)
+		{
+			GPIOA->AFRL &=~(0b1111<<(Copy_u16PinNumber*4));
+			GPIOA->AFRL |= (Copy_u8AlternativeFunction<<(Copy_u16PinNumber*4));
+		}
+		if(Copy_u8PortName<=15)
+		{
+			GPIOA->AFRH &=~(0b1111<<((Copy_u16PinNumber-8)*4));
+			GPIOA->AFRH |= (Copy_u8AlternativeFunction<<((Copy_u16PinNumber-8)*4));
+		}
+		break;
+	}
+}
+

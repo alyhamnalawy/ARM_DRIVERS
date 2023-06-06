@@ -2962,20 +2962,14 @@ Discarded input sections
  .debug_macro   0x00000000      0xa6c ./system/src/cmsis/vectors_stm32f401xc.o
  .debug_macro   0x00000000      0x34e ./system/src/cmsis/vectors_stm32f401xc.o
  .group         0x00000000        0xc ./src/DotMatrix_main.o
+ .group         0x00000000        0xc ./src/DotMatrix_main.o
+ .group         0x00000000        0xc ./src/DotMatrix_main.o
+ .group         0x00000000        0xc ./src/DotMatrix_main.o
+ .group         0x00000000        0xc ./src/DotMatrix_main.o
  .text          0x00000000        0x0 ./src/DotMatrix_main.o
  .data          0x00000000        0x0 ./src/DotMatrix_main.o
  .bss           0x00000000        0x0 ./src/DotMatrix_main.o
- .debug_info    0x00000000       0x21 ./src/DotMatrix_main.o
- .debug_abbrev  0x00000000       0x13 ./src/DotMatrix_main.o
- .debug_aranges
-                0x00000000       0x18 ./src/DotMatrix_main.o
- .debug_macro   0x00000000       0x11 ./src/DotMatrix_main.o
  .debug_macro   0x00000000      0xa6c ./src/DotMatrix_main.o
- .debug_line    0x00000000       0x38 ./src/DotMatrix_main.o
- .debug_str     0x00000000     0x2d43 ./src/DotMatrix_main.o
- .comment       0x00000000       0x7f ./src/DotMatrix_main.o
- .ARM.attributes
-                0x00000000       0x33 ./src/DotMatrix_main.o
  .group         0x00000000        0xc ./src/DotMatrix_program.o
  .group         0x00000000        0xc ./src/DotMatrix_program.o
  .group         0x00000000        0xc ./src/DotMatrix_program.o
@@ -2985,29 +2979,10 @@ Discarded input sections
  .text          0x00000000        0x0 ./src/DotMatrix_program.o
  .data          0x00000000        0x0 ./src/DotMatrix_program.o
  .bss           0x00000000        0x0 ./src/DotMatrix_program.o
- .text.HDotMatrix_voidInit
-                0x00000000       0x7e ./src/DotMatrix_program.o
- .text.HDotMatrix_voidDisplay
-                0x00000000       0x48 ./src/DotMatrix_program.o
- .debug_info    0x00000000      0x2a3 ./src/DotMatrix_program.o
- .debug_abbrev  0x00000000       0xca ./src/DotMatrix_program.o
- .debug_loc     0x00000000       0xa6 ./src/DotMatrix_program.o
- .debug_aranges
-                0x00000000       0x28 ./src/DotMatrix_program.o
- .debug_ranges  0x00000000       0x18 ./src/DotMatrix_program.o
- .debug_macro   0x00000000       0x52 ./src/DotMatrix_program.o
  .debug_macro   0x00000000      0xa6c ./src/DotMatrix_program.o
  .debug_macro   0x00000000       0x1c ./src/DotMatrix_program.o
  .debug_macro   0x00000000       0x34 ./src/DotMatrix_program.o
- .debug_macro   0x00000000       0xe8 ./src/DotMatrix_program.o
- .debug_macro   0x00000000       0x16 ./src/DotMatrix_program.o
- .debug_macro   0x00000000       0x7c ./src/DotMatrix_program.o
- .debug_line    0x00000000      0x166 ./src/DotMatrix_program.o
- .debug_str     0x00000000     0x3336 ./src/DotMatrix_program.o
- .comment       0x00000000       0x7f ./src/DotMatrix_program.o
- .debug_frame   0x00000000       0x4c ./src/DotMatrix_program.o
- .ARM.attributes
-                0x00000000       0x33 ./src/DotMatrix_program.o
+ .debug_macro   0x00000000       0xee ./src/DotMatrix_program.o
  .group         0x00000000        0xc ./src/EXTI_main.o
  .text          0x00000000        0x0 ./src/EXTI_main.o
  .data          0x00000000        0x0 ./src/EXTI_main.o
@@ -3031,13 +3006,38 @@ Discarded input sections
  .text          0x00000000        0x0 ./src/EXTI_program.o
  .data          0x00000000        0x0 ./src/EXTI_program.o
  .bss           0x00000000        0x0 ./src/EXTI_program.o
+ .text.MEXTI_voidinit
+                0x00000000        0x2 ./src/EXTI_program.o
+ .text.MEXTI_voidEnableInterrupt
+                0x00000000       0x18 ./src/EXTI_program.o
  .text.MEXTI_voidDisableInterrupt
                 0x00000000       0x1c ./src/EXTI_program.o
+ .text.MEXTI_voidChangeSenseMode
+                0x00000000       0x58 ./src/EXTI_program.o
+ .text.MEXTI_voidSetCallBack
+                0x00000000       0x10 ./src/EXTI_program.o
  .text.EXT0_IRQHandler
                 0x00000000       0x20 ./src/EXTI_program.o
+ .bss.pvCallBack
+                0x00000000       0x40 ./src/EXTI_program.o
+ .debug_info    0x00000000      0x1cf ./src/EXTI_program.o
+ .debug_abbrev  0x00000000      0x112 ./src/EXTI_program.o
+ .debug_loc     0x00000000       0xe8 ./src/EXTI_program.o
+ .debug_aranges
+                0x00000000       0x48 ./src/EXTI_program.o
+ .debug_ranges  0x00000000       0x38 ./src/EXTI_program.o
+ .debug_macro   0x00000000       0x3f ./src/EXTI_program.o
  .debug_macro   0x00000000      0xa6c ./src/EXTI_program.o
  .debug_macro   0x00000000       0x1c ./src/EXTI_program.o
  .debug_macro   0x00000000       0x34 ./src/EXTI_program.o
+ .debug_macro   0x00000000       0x22 ./src/EXTI_program.o
+ .debug_macro   0x00000000       0x16 ./src/EXTI_program.o
+ .debug_line    0x00000000      0x110 ./src/EXTI_program.o
+ .debug_str     0x00000000     0x3080 ./src/EXTI_program.o
+ .comment       0x00000000       0x7f ./src/EXTI_program.o
+ .debug_frame   0x00000000       0x78 ./src/EXTI_program.o
+ .ARM.attributes
+                0x00000000       0x33 ./src/EXTI_program.o
  .group         0x00000000        0xc ./src/GPIO_main.o
  .text          0x00000000        0x0 ./src/GPIO_main.o
  .data          0x00000000        0x0 ./src/GPIO_main.o
@@ -3061,35 +3061,69 @@ Discarded input sections
  .text          0x00000000        0x0 ./src/GPIO_program.o
  .data          0x00000000        0x0 ./src/GPIO_program.o
  .bss           0x00000000        0x0 ./src/GPIO_program.o
- .text.GPIO_voidSetPinOutputType
-                0x00000000       0x3c ./src/GPIO_program.o
- .text.GPIO_voidSetPinOutputSpeed
-                0x00000000       0x44 ./src/GPIO_program.o
  .text.GPIO_u8ReadData
                 0x00000000       0x40 ./src/GPIO_program.o
- .text.GPIO_voidSetPinValue
-                0x00000000       0x90 ./src/GPIO_program.o
  .text.GPIO_voidSetReset
                 0x00000000       0x74 ./src/GPIO_program.o
+ .text.GPIO_voidSetAlternativeFunction
+                0x00000000       0x50 ./src/GPIO_program.o
  .debug_macro   0x00000000      0xa6c ./src/GPIO_program.o
  .debug_macro   0x00000000       0x34 ./src/GPIO_program.o
  .debug_macro   0x00000000       0x1c ./src/GPIO_program.o
- .debug_macro   0x00000000       0xe8 ./src/GPIO_program.o
- .group         0x00000000        0xc ./src/IR.o
- .group         0x00000000        0xc ./src/IR.o
- .group         0x00000000        0xc ./src/IR.o
- .group         0x00000000        0xc ./src/IR.o
- .group         0x00000000        0xc ./src/IR.o
- .group         0x00000000        0xc ./src/IR.o
+ .debug_macro   0x00000000       0xee ./src/GPIO_program.o
  .group         0x00000000        0xc ./src/IR.o
  .text          0x00000000        0x0 ./src/IR.o
  .data          0x00000000        0x0 ./src/IR.o
  .bss           0x00000000        0x0 ./src/IR.o
+ .debug_info    0x00000000       0x21 ./src/IR.o
+ .debug_abbrev  0x00000000       0x13 ./src/IR.o
+ .debug_aranges
+                0x00000000       0x18 ./src/IR.o
+ .debug_macro   0x00000000       0x11 ./src/IR.o
  .debug_macro   0x00000000      0xa6c ./src/IR.o
- .debug_macro   0x00000000       0x1c ./src/IR.o
- .debug_macro   0x00000000       0x34 ./src/IR.o
- .debug_macro   0x00000000       0xe8 ./src/IR.o
- .debug_macro   0x00000000       0x22 ./src/IR.o
+ .debug_line    0x00000000       0x2c ./src/IR.o
+ .debug_str     0x00000000     0x2d37 ./src/IR.o
+ .comment       0x00000000       0x7f ./src/IR.o
+ .ARM.attributes
+                0x00000000       0x33 ./src/IR.o
+ .group         0x00000000        0xc ./src/MUART_program.o
+ .group         0x00000000        0xc ./src/MUART_program.o
+ .group         0x00000000        0xc ./src/MUART_program.o
+ .group         0x00000000        0xc ./src/MUART_program.o
+ .group         0x00000000        0xc ./src/MUART_program.o
+ .text          0x00000000        0x0 ./src/MUART_program.o
+ .data          0x00000000        0x0 ./src/MUART_program.o
+ .bss           0x00000000        0x0 ./src/MUART_program.o
+ .text.MUART_voidInit
+                0x00000000       0x60 ./src/MUART_program.o
+ .text.MUART_voidEnable
+                0x00000000       0x10 ./src/MUART_program.o
+ .text.MUART_voidDisable
+                0x00000000       0x10 ./src/MUART_program.o
+ .text.MUART_GetHandler
+                0x00000000        0x8 ./src/MUART_program.o
+ .text.MUART_u8SendData
+                0x00000000       0x22 ./src/MUART_program.o
+ .text.MUART_u8ReadData
+                0x00000000        0xc ./src/MUART_program.o
+ .debug_info    0x00000000      0x346 ./src/MUART_program.o
+ .debug_abbrev  0x00000000      0x16f ./src/MUART_program.o
+ .debug_loc     0x00000000       0x7c ./src/MUART_program.o
+ .debug_aranges
+                0x00000000       0x48 ./src/MUART_program.o
+ .debug_ranges  0x00000000       0x38 ./src/MUART_program.o
+ .debug_macro   0x00000000       0x3f ./src/MUART_program.o
+ .debug_macro   0x00000000      0xa6c ./src/MUART_program.o
+ .debug_macro   0x00000000       0x1c ./src/MUART_program.o
+ .debug_macro   0x00000000       0x34 ./src/MUART_program.o
+ .debug_macro   0x00000000       0x16 ./src/MUART_program.o
+ .debug_macro   0x00000000       0x94 ./src/MUART_program.o
+ .debug_line    0x00000000      0x124 ./src/MUART_program.o
+ .debug_str     0x00000000     0x325f ./src/MUART_program.o
+ .comment       0x00000000       0x7f ./src/MUART_program.o
+ .debug_frame   0x00000000       0x84 ./src/MUART_program.o
+ .ARM.attributes
+                0x00000000       0x33 ./src/MUART_program.o
  .group         0x00000000        0xc ./src/NVIC_program.o
  .group         0x00000000        0xc ./src/NVIC_program.o
  .group         0x00000000        0xc ./src/NVIC_program.o
@@ -3099,6 +3133,10 @@ Discarded input sections
  .text          0x00000000        0x0 ./src/NVIC_program.o
  .data          0x00000000        0x0 ./src/NVIC_program.o
  .bss           0x00000000        0x0 ./src/NVIC_program.o
+ .text.MNVIC_voidInit
+                0x00000000       0x14 ./src/NVIC_program.o
+ .text.MNVIC_voidEnablePeripheralInterrupt
+                0x00000000       0x18 ./src/NVIC_program.o
  .text.MNVIC_voidDisablePeripheralInterrupt
                 0x00000000       0x1c ./src/NVIC_program.o
  .text.MNVIC_voidSetPendingFlag
@@ -3109,10 +3147,25 @@ Discarded input sections
                 0x00000000       0x1c ./src/NVIC_program.o
  .text.MNVIC_voidSetPeripheralPriority
                 0x00000000       0x12 ./src/NVIC_program.o
+ .debug_info    0x00000000      0x2ff ./src/NVIC_program.o
+ .debug_abbrev  0x00000000      0x11e ./src/NVIC_program.o
+ .debug_loc     0x00000000      0x18f ./src/NVIC_program.o
+ .debug_aranges
+                0x00000000       0x50 ./src/NVIC_program.o
+ .debug_ranges  0x00000000       0x40 ./src/NVIC_program.o
+ .debug_macro   0x00000000       0x3e ./src/NVIC_program.o
  .debug_macro   0x00000000      0xa6c ./src/NVIC_program.o
  .debug_macro   0x00000000       0x1c ./src/NVIC_program.o
  .debug_macro   0x00000000       0x34 ./src/NVIC_program.o
  .debug_macro   0x00000000      0x15a ./src/NVIC_program.o
+ .debug_macro   0x00000000       0x3a ./src/NVIC_program.o
+ .debug_macro   0x00000000       0x10 ./src/NVIC_program.o
+ .debug_line    0x00000000      0x111 ./src/NVIC_program.o
+ .debug_str     0x00000000     0x35ca ./src/NVIC_program.o
+ .comment       0x00000000       0x7f ./src/NVIC_program.o
+ .debug_frame   0x00000000       0x80 ./src/NVIC_program.o
+ .ARM.attributes
+                0x00000000       0x33 ./src/NVIC_program.o
  .group         0x00000000        0xc ./src/RCC_program.o
  .group         0x00000000        0xc ./src/RCC_program.o
  .group         0x00000000        0xc ./src/RCC_program.o
@@ -3122,12 +3175,46 @@ Discarded input sections
  .text          0x00000000        0x0 ./src/RCC_program.o
  .data          0x00000000        0x0 ./src/RCC_program.o
  .bss           0x00000000        0x0 ./src/RCC_program.o
+ .text.MRCC_voidinit
+                0x00000000       0x58 ./src/RCC_program.o
  .text.MRCC_voidDisablePeripherlClock
                 0x00000000       0x58 ./src/RCC_program.o
  .debug_macro   0x00000000      0xa6c ./src/RCC_program.o
  .debug_macro   0x00000000       0x1c ./src/RCC_program.o
  .debug_macro   0x00000000       0x34 ./src/RCC_program.o
  .debug_macro   0x00000000       0xa0 ./src/RCC_program.o
+ .group         0x00000000        0xc ./src/SPI_program.o
+ .group         0x00000000        0xc ./src/SPI_program.o
+ .group         0x00000000        0xc ./src/SPI_program.o
+ .group         0x00000000        0xc ./src/SPI_program.o
+ .group         0x00000000        0xc ./src/SPI_program.o
+ .group         0x00000000        0xc ./src/SPI_program.o
+ .text          0x00000000        0x0 ./src/SPI_program.o
+ .data          0x00000000        0x0 ./src/SPI_program.o
+ .bss           0x00000000        0x0 ./src/SPI_program.o
+ .text.MSPI1_voidInit
+                0x00000000       0x6c ./src/SPI_program.o
+ .text.MSPI_u8TrancieveSynchronous
+                0x00000000       0x1c ./src/SPI_program.o
+ .debug_info    0x00000000      0x286 ./src/SPI_program.o
+ .debug_abbrev  0x00000000      0x11a ./src/SPI_program.o
+ .debug_loc     0x00000000       0x21 ./src/SPI_program.o
+ .debug_aranges
+                0x00000000       0x28 ./src/SPI_program.o
+ .debug_ranges  0x00000000       0x18 ./src/SPI_program.o
+ .debug_macro   0x00000000       0x4e ./src/SPI_program.o
+ .debug_macro   0x00000000      0xa6c ./src/SPI_program.o
+ .debug_macro   0x00000000       0x1c ./src/SPI_program.o
+ .debug_macro   0x00000000       0x34 ./src/SPI_program.o
+ .debug_macro   0x00000000       0x10 ./src/SPI_program.o
+ .debug_macro   0x00000000       0xee ./src/SPI_program.o
+ .debug_macro   0x00000000       0x1c ./src/SPI_program.o
+ .debug_line    0x00000000       0xdd ./src/SPI_program.o
+ .debug_str     0x00000000     0x3237 ./src/SPI_program.o
+ .comment       0x00000000       0x7f ./src/SPI_program.o
+ .debug_frame   0x00000000       0x38 ./src/SPI_program.o
+ .ARM.attributes
+                0x00000000       0x33 ./src/SPI_program.o
  .group         0x00000000        0xc ./src/SSD_main.o
  .text          0x00000000        0x0 ./src/SSD_main.o
  .data          0x00000000        0x0 ./src/SSD_main.o
@@ -3165,10 +3252,10 @@ Discarded input sections
  .debug_macro   0x00000000      0xa6c ./src/SSD_program.o
  .debug_macro   0x00000000       0x34 ./src/SSD_program.o
  .debug_macro   0x00000000       0x1c ./src/SSD_program.o
- .debug_macro   0x00000000       0xe8 ./src/SSD_program.o
+ .debug_macro   0x00000000       0xee ./src/SSD_program.o
  .debug_macro   0x00000000       0x3a ./src/SSD_program.o
  .debug_line    0x00000000      0x15b ./src/SSD_program.o
- .debug_str     0x00000000     0x31c4 ./src/SSD_program.o
+ .debug_str     0x00000000     0x31d0 ./src/SSD_program.o
  .comment       0x00000000       0x7f ./src/SSD_program.o
  .debug_frame   0x00000000       0x44 ./src/SSD_program.o
  .ARM.attributes
@@ -3196,27 +3283,71 @@ Discarded input sections
  .text          0x00000000        0x0 ./src/SysTick_program.o
  .data          0x00000000        0x0 ./src/SysTick_program.o
  .bss           0x00000000        0x0 ./src/SysTick_program.o
+ .text.MSYSTICK_voidInit
+                0x00000000       0x20 ./src/SysTick_program.o
  .text.MSYSTICK_voidInterruptEnable
                 0x00000000       0x10 ./src/SysTick_program.o
  .text.MSYSTICK_voidInterruptDisable
                 0x00000000       0x10 ./src/SysTick_program.o
- .text.MSYSTICK_voidEnable
-                0x00000000       0x10 ./src/SysTick_program.o
  .text.MSYSTICK_voidDisable
+                0x00000000       0x10 ./src/SysTick_program.o
+ .text.MSYSTICK_voidGetElapsedTime
                 0x00000000       0x10 ./src/SysTick_program.o
  .text.MSYSTICK_voidGetRemainingTime
                 0x00000000        0xc ./src/SysTick_program.o
- .text.MSYSTICK_voidSetBusyWait
-                0x00000000       0x10 ./src/SysTick_program.o
  .text.MSYSTICK_voidResetSystick
                 0x00000000        0xc ./src/SysTick_program.o
+ .text.MSYSTICK_voidSetSingleInterval
+                0x00000000       0x38 ./src/SysTick_program.o
  .text.MSYSTICK_voidSetPeriodicInterval
                 0x00000000       0x2c ./src/SysTick_program.o
  .text.MSysTick_Handler
                 0x00000000       0x34 ./src/SysTick_program.o
+ .bss.Global_u8IntervalFlag
+                0x00000000        0x1 ./src/SysTick_program.o
+ .bss.pvCallBackFunction
+                0x00000000        0x4 ./src/SysTick_program.o
  .debug_macro   0x00000000      0xa6c ./src/SysTick_program.o
  .debug_macro   0x00000000       0x34 ./src/SysTick_program.o
  .debug_macro   0x00000000       0x1c ./src/SysTick_program.o
+ .group         0x00000000        0xc ./src/TFT_program.o
+ .group         0x00000000        0xc ./src/TFT_program.o
+ .group         0x00000000        0xc ./src/TFT_program.o
+ .group         0x00000000        0xc ./src/TFT_program.o
+ .group         0x00000000        0xc ./src/TFT_program.o
+ .group         0x00000000        0xc ./src/TFT_program.o
+ .text          0x00000000        0x0 ./src/TFT_program.o
+ .data          0x00000000        0x0 ./src/TFT_program.o
+ .bss           0x00000000        0x0 ./src/TFT_program.o
+ .text.HTFT_voidSendData
+                0x00000000       0x1e ./src/TFT_program.o
+ .text.HTFT_voidSendCommand
+                0x00000000       0x1e ./src/TFT_program.o
+ .text.HTFT_voidInit
+                0x00000000       0xb8 ./src/TFT_program.o
+ .text.HTFT_voidSetWindow
+                0x00000000       0x48 ./src/TFT_program.o
+ .text.HTFT_voidDisplayImage
+                0x00000000       0x38 ./src/TFT_program.o
+ .debug_info    0x00000000      0x55d ./src/TFT_program.o
+ .debug_abbrev  0x00000000       0xfa ./src/TFT_program.o
+ .debug_loc     0x00000000      0x167 ./src/TFT_program.o
+ .debug_aranges
+                0x00000000       0x40 ./src/TFT_program.o
+ .debug_ranges  0x00000000       0x30 ./src/TFT_program.o
+ .debug_macro   0x00000000       0x5c ./src/TFT_program.o
+ .debug_macro   0x00000000      0xa6c ./src/TFT_program.o
+ .debug_macro   0x00000000       0x1c ./src/TFT_program.o
+ .debug_macro   0x00000000       0x34 ./src/TFT_program.o
+ .debug_macro   0x00000000       0xee ./src/TFT_program.o
+ .debug_macro   0x00000000       0x1c ./src/TFT_program.o
+ .debug_macro   0x00000000       0x1c ./src/TFT_program.o
+ .debug_line    0x00000000      0x168 ./src/TFT_program.o
+ .debug_str     0x00000000     0x32a7 ./src/TFT_program.o
+ .comment       0x00000000       0x7f ./src/TFT_program.o
+ .debug_frame   0x00000000       0xa4 ./src/TFT_program.o
+ .ARM.attributes
+                0x00000000       0x33 ./src/TFT_program.o
  .group         0x00000000        0xc ./src/_initialize_hardware.o
  .group         0x00000000        0xc ./src/_initialize_hardware.o
  .group         0x00000000        0xc ./src/_initialize_hardware.o
@@ -3656,12 +3787,15 @@ LOAD ./src/EXTI_program.o
 LOAD ./src/GPIO_main.o
 LOAD ./src/GPIO_program.o
 LOAD ./src/IR.o
+LOAD ./src/MUART_program.o
 LOAD ./src/NVIC_program.o
 LOAD ./src/RCC_program.o
+LOAD ./src/SPI_program.o
 LOAD ./src/SSD_main.o
 LOAD ./src/SSD_program.o
 LOAD ./src/SysTick_main.o
 LOAD ./src/SysTick_program.o
+LOAD ./src/TFT_program.o
 LOAD ./src/_initialize_hardware.o
 LOAD ./src/stm32f4xx_hal_msp.o
 LOAD c:/users/ali ehab/desktop/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libstdc++_nano.a
@@ -3682,7 +3816,7 @@ END GROUP
                 0x2000fc00                __Main_Stack_Limit = (__stack - __Main_Stack_Size)
                 [!provide]                PROVIDE (_Main_Stack_Limit, __Main_Stack_Limit)
                 0x00000100                _Minimum_Stack_Size = 0x100
-                0x20000228                PROVIDE (_Heap_Begin, _end_noinit)
+                0x20000118                PROVIDE (_Heap_Begin, _end_noinit)
                 0x2000fc00                PROVIDE (_Heap_Limit, (__stack - __Main_Stack_Size))
 
 .isr_vector     0x08000000      0x3f4
@@ -3774,16 +3908,16 @@ END GROUP
 
 .inits          0x080003f4       0x28
                 0x080003f4                __data_regions_array_start = .
-                0x080003f4        0x4 LONG 0x8001f78 LOADADDR (.data)
+                0x080003f4        0x4 LONG 0x8001f20 LOADADDR (.data)
                 0x080003f8        0x4 LONG 0x20000000 ADDR (.data)
                 0x080003fc        0x4 LONG 0x20000078 (ADDR (.data) + SIZEOF (.data))
-                0x08000400        0x4 LONG 0x8001f78 LOADADDR (.data_CCMRAM)
+                0x08000400        0x4 LONG 0x8001f20 LOADADDR (.data_CCMRAM)
                 0x08000404        0x4 LONG 0x10000000 ADDR (.data_CCMRAM)
                 0x08000408        0x4 LONG 0x10000000 (ADDR (.data_CCMRAM) + SIZEOF (.data_CCMRAM))
                 0x0800040c                __data_regions_array_end = .
                 0x0800040c                __bss_regions_array_start = .
                 0x0800040c        0x4 LONG 0x20000078 ADDR (.bss)
-                0x08000410        0x4 LONG 0x20000228 (ADDR (.bss) + SIZEOF (.bss))
+                0x08000410        0x4 LONG 0x20000118 (ADDR (.bss) + SIZEOF (.bss))
                 0x08000414        0x4 LONG 0x10000000 ADDR (.bss_CCMRAM)
                 0x08000418        0x4 LONG 0x10000000 (ADDR (.bss_CCMRAM) + SIZEOF (.bss_CCMRAM))
                 0x0800041c                __bss_regions_array_end = .
@@ -3809,7 +3943,7 @@ END GROUP
 .flashtext
  *(.flashtext .flashtext.*)
 
-.text           0x08000420     0x1b57
+.text           0x08000420     0x1aff
  *(.text .text.*)
  .text.HAL_InitTick
                 0x08000420       0x2c ./system/src/stm32f4-hal/stm32f4xx_hal.o
@@ -3883,187 +4017,170 @@ END GROUP
  .text.SystemCoreClockUpdate
                 0x08000f94       0xa0 ./system/src/cmsis/system_stm32f4xx.o
                 0x08000f94                SystemCoreClockUpdate
- .text.MEXTI_voidinit
-                0x08001034        0x2 ./src/EXTI_program.o
-                0x08001034                MEXTI_voidinit
- *fill*         0x08001036        0x2 
- .text.MEXTI_voidEnableInterrupt
-                0x08001038       0x18 ./src/EXTI_program.o
-                0x08001038                MEXTI_voidEnableInterrupt
- .text.MEXTI_voidChangeSenseMode
-                0x08001050       0x58 ./src/EXTI_program.o
-                0x08001050                MEXTI_voidChangeSenseMode
- .text.MEXTI_voidSetCallBack
-                0x080010a8       0x10 ./src/EXTI_program.o
-                0x080010a8                MEXTI_voidSetCallBack
+ .text.main     0x08001034       0x30 ./src/DotMatrix_main.o
+                0x08001034                main
+ .text.HDotMatrix_voidInit
+                0x08001064       0x7e ./src/DotMatrix_program.o
+                0x08001064                HDotMatrix_voidInit
+ .text.HDotMatrix_voidDisplay
+                0x080010e2       0x48 ./src/DotMatrix_program.o
+                0x080010e2                HDotMatrix_voidDisplay
+ *fill*         0x0800112a        0x2 
  .text.GPIO_voidSetPinMode
-                0x080010b8       0x44 ./src/GPIO_program.o
-                0x080010b8                GPIO_voidSetPinMode
+                0x0800112c       0x44 ./src/GPIO_program.o
+                0x0800112c                GPIO_voidSetPinMode
+ .text.GPIO_voidSetPinOutputType
+                0x08001170       0x3c ./src/GPIO_program.o
+                0x08001170                GPIO_voidSetPinOutputType
+ .text.GPIO_voidSetPinOutputSpeed
+                0x080011ac       0x44 ./src/GPIO_program.o
+                0x080011ac                GPIO_voidSetPinOutputSpeed
  .text.GPIO_voidSetPullType
-                0x080010fc       0x44 ./src/GPIO_program.o
-                0x080010fc                GPIO_voidSetPullType
- .text.APP_TakeAction
-                0x08001140       0x5c ./src/IR.o
-                0x08001140                APP_TakeAction
- .text.APP_GetFrame
-                0x0800119c       0x4c ./src/IR.o
-                0x0800119c                APP_GetFrame
- .text.APP_voidPlay
-                0x080011e8       0x1c ./src/IR.o
-                0x080011e8                APP_voidPlay
- .text.main     0x08001204       0x54 ./src/IR.o
-                0x08001204                main
- .text.MNVIC_voidInit
-                0x08001258       0x14 ./src/NVIC_program.o
-                0x08001258                MNVIC_voidInit
- .text.MNVIC_voidEnablePeripheralInterrupt
-                0x0800126c       0x18 ./src/NVIC_program.o
-                0x0800126c                MNVIC_voidEnablePeripheralInterrupt
- .text.MRCC_voidinit
-                0x08001284       0x58 ./src/RCC_program.o
-                0x08001284                MRCC_voidinit
+                0x080011f0       0x44 ./src/GPIO_program.o
+                0x080011f0                GPIO_voidSetPullType
+ .text.GPIO_voidSetPinValue
+                0x08001234       0x90 ./src/GPIO_program.o
+                0x08001234                GPIO_voidSetPinValue
  .text.MRCC_voidEnablePeripherlClock
-                0x080012dc       0x50 ./src/RCC_program.o
-                0x080012dc                MRCC_voidEnablePeripherlClock
- .text.MSYSTICK_voidInit
-                0x0800132c       0x20 ./src/SysTick_program.o
-                0x0800132c                MSYSTICK_voidInit
- .text.MSYSTICK_voidGetElapsedTime
-                0x0800134c       0x10 ./src/SysTick_program.o
-                0x0800134c                MSYSTICK_voidGetElapsedTime
- .text.MSYSTICK_voidSetSingleInterval
-                0x0800135c       0x38 ./src/SysTick_program.o
-                0x0800135c                MSYSTICK_voidSetSingleInterval
+                0x080012c4       0x50 ./src/RCC_program.o
+                0x080012c4                MRCC_voidEnablePeripherlClock
+ .text.MSYSTICK_voidEnable
+                0x08001314       0x10 ./src/SysTick_program.o
+                0x08001314                MSYSTICK_voidEnable
+ .text.MSYSTICK_voidSetBusyWait
+                0x08001324       0x10 ./src/SysTick_program.o
+                0x08001324                MSYSTICK_voidSetBusyWait
  .text.SystemClock_Config
-                0x08001394       0x98 ./src/_initialize_hardware.o
-                0x08001394                SystemClock_Config
+                0x08001334       0x98 ./src/_initialize_hardware.o
+                0x08001334                SystemClock_Config
  .text.__initialize_hardware
-                0x0800142c       0x10 ./src/_initialize_hardware.o
-                0x0800142c                __initialize_hardware
+                0x080013cc       0x10 ./src/_initialize_hardware.o
+                0x080013cc                __initialize_hardware
  .text.HAL_MspInit
-                0x0800143c        0x2 ./src/stm32f4xx_hal_msp.o
-                0x0800143c                HAL_MspInit
- *fill*         0x0800143e        0x2 
- .text.__errno  0x08001440        0xc c:/users/ali ehab/desktop/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-errno.o)
-                0x08001440                __errno
- .text          0x0800144c       0x10 c:/users/ali ehab/desktop/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-strlen.o)
-                0x0800144c                strlen
+                0x080013dc        0x2 ./src/stm32f4xx_hal_msp.o
+                0x080013dc                HAL_MspInit
+ *fill*         0x080013de        0x2 
+ .text.__errno  0x080013e0        0xc c:/users/ali ehab/desktop/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-errno.o)
+                0x080013e0                __errno
+ .text          0x080013ec       0x10 c:/users/ali ehab/desktop/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-strlen.o)
+                0x080013ec                strlen
  .text._vsnprintf_r
-                0x0800145c       0x58 c:/users/ali ehab/desktop/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-vsnprintf.o)
-                0x0800145c                _vsniprintf_r
-                0x0800145c                _vsnprintf_r
+                0x080013fc       0x58 c:/users/ali ehab/desktop/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-vsnprintf.o)
+                0x080013fc                _vsniprintf_r
+                0x080013fc                _vsnprintf_r
  .text.vsnprintf
-                0x080014b4       0x1c c:/users/ali ehab/desktop/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-vsnprintf.o)
-                0x080014b4                vsniprintf
-                0x080014b4                vsnprintf
+                0x08001454       0x1c c:/users/ali ehab/desktop/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-vsnprintf.o)
+                0x08001454                vsniprintf
+                0x08001454                vsnprintf
  .text.__ssputs_r
-                0x080014d0       0xb4 c:/users/ali ehab/desktop/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-nano-svfprintf.o)
-                0x080014d0                __ssputs_r
+                0x08001470       0xb4 c:/users/ali ehab/desktop/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-nano-svfprintf.o)
+                0x08001470                __ssputs_r
  .text._svfprintf_r
-                0x08001584      0x1ec c:/users/ali ehab/desktop/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-nano-svfprintf.o)
-                0x08001584                _svfiprintf_r
-                0x08001584                _svfprintf_r
+                0x08001524      0x1ec c:/users/ali ehab/desktop/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-nano-svfprintf.o)
+                0x08001524                _svfiprintf_r
+                0x08001524                _svfprintf_r
  .text._printf_common
-                0x08001770       0xea c:/users/ali ehab/desktop/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-nano-vfprintf_i.o)
-                0x08001770                _printf_common
- *fill*         0x0800185a        0x2 
+                0x08001710       0xea c:/users/ali ehab/desktop/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-nano-vfprintf_i.o)
+                0x08001710                _printf_common
+ *fill*         0x080017fa        0x2 
  .text._printf_i
-                0x0800185c      0x224 c:/users/ali ehab/desktop/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-nano-vfprintf_i.o)
-                0x0800185c                _printf_i
- .text          0x08001a80       0xa0 c:/users/ali ehab/desktop/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-memchr.o)
-                0x08001a80                memchr
- .text.memcpy   0x08001b20       0x16 c:/users/ali ehab/desktop/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-memcpy-stub.o)
-                0x08001b20                memcpy
- .text.memmove  0x08001b36       0x32 c:/users/ali ehab/desktop/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-memmove.o)
-                0x08001b36                memmove
- .text._free_r  0x08001b68       0x9c c:/users/ali ehab/desktop/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-nano-freer.o)
-                0x08001b68                _free_r
+                0x080017fc      0x224 c:/users/ali ehab/desktop/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-nano-vfprintf_i.o)
+                0x080017fc                _printf_i
+ .text          0x08001a20       0xa0 c:/users/ali ehab/desktop/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-memchr.o)
+                0x08001a20                memchr
+ .text.memcpy   0x08001ac0       0x16 c:/users/ali ehab/desktop/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-memcpy-stub.o)
+                0x08001ac0                memcpy
+ .text.memmove  0x08001ad6       0x32 c:/users/ali ehab/desktop/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-memmove.o)
+                0x08001ad6                memmove
+ .text._free_r  0x08001b08       0x9c c:/users/ali ehab/desktop/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-nano-freer.o)
+                0x08001b08                _free_r
  .text._malloc_r
-                0x08001c04       0xb4 c:/users/ali ehab/desktop/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-nano-mallocr.o)
-                0x08001c04                _malloc_r
+                0x08001ba4       0xb4 c:/users/ali ehab/desktop/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-nano-mallocr.o)
+                0x08001ba4                _malloc_r
  .text._realloc_r
-                0x08001cb8       0x4c c:/users/ali ehab/desktop/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-nano-reallocr.o)
-                0x08001cb8                _realloc_r
- .text._sbrk_r  0x08001d04       0x20 c:/users/ali ehab/desktop/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-sbrkr.o)
-                0x08001d04                _sbrk_r
+                0x08001c58       0x4c c:/users/ali ehab/desktop/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-nano-reallocr.o)
+                0x08001c58                _realloc_r
+ .text._sbrk_r  0x08001ca4       0x20 c:/users/ali ehab/desktop/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-sbrkr.o)
+                0x08001ca4                _sbrk_r
  .text.__malloc_lock
-                0x08001d24        0x2 c:/users/ali ehab/desktop/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-mlock.o)
-                0x08001d24                __malloc_lock
+                0x08001cc4        0x2 c:/users/ali ehab/desktop/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-mlock.o)
+                0x08001cc4                __malloc_lock
  .text.__malloc_unlock
-                0x08001d26        0x2 c:/users/ali ehab/desktop/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-mlock.o)
-                0x08001d26                __malloc_unlock
+                0x08001cc6        0x2 c:/users/ali ehab/desktop/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-mlock.o)
+                0x08001cc6                __malloc_unlock
  .text._malloc_usable_size_r
-                0x08001d28       0x10 c:/users/ali ehab/desktop/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-nano-msizer.o)
-                0x08001d28                _malloc_usable_size_r
+                0x08001cc8       0x10 c:/users/ali ehab/desktop/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-nano-msizer.o)
+                0x08001cc8                _malloc_usable_size_r
  *(.rodata .rodata.* .constdata .constdata.*)
  .rodata.HAL_NVIC_SetPriorityGrouping.str1.4
-                0x08001d38       0x31 ./system/src/stm32f4-hal/stm32f4xx_hal_cortex.o
- *fill*         0x08001d69        0x3 
+                0x08001cd8       0x31 ./system/src/stm32f4-hal/stm32f4xx_hal_cortex.o
+ *fill*         0x08001d09        0x3 
  .rodata.APBAHBPrescTable
-                0x08001d6c       0x10 ./system/src/stm32f4-hal/stm32f4xx_hal_rcc.o
-                0x08001d6c                APBAHBPrescTable
+                0x08001d0c       0x10 ./system/src/stm32f4-hal/stm32f4xx_hal_rcc.o
+                0x08001d0c                APBAHBPrescTable
  .rodata.HAL_RCC_OscConfig.str1.4
-                0x08001d7c       0x2e ./system/src/stm32f4-hal/stm32f4xx_hal_rcc.o
- *fill*         0x08001daa        0x2 
+                0x08001d1c       0x2e ./system/src/stm32f4-hal/stm32f4xx_hal_rcc.o
+ *fill*         0x08001d4a        0x2 
  .rodata.abort.str1.4
-                0x08001dac       0x14 ./system/src/newlib/_exit.o
+                0x08001d4c       0x14 ./system/src/newlib/_exit.o
  .rodata.assert_failed.str1.4
-                0x08001dc0       0x2b ./system/src/newlib/assert.o
+                0x08001d60       0x2b ./system/src/newlib/assert.o
  .rodata.trace_puts.str1.4
-                0x08001deb       0x2b ./system/src/diag/Trace.o
+                0x08001d8b       0x2b ./system/src/diag/Trace.o
                                   0x2 (size before relaxing)
- *fill*         0x08001deb        0x1 
+ *fill*         0x08001d8b        0x1 
  .rodata.dumpExceptionStack.str1.4
-                0x08001dec      0x11a ./system/src/cortexm/exception_handlers.o
- *fill*         0x08001f06        0x2 
+                0x08001d8c      0x11a ./system/src/cortexm/exception_handlers.o
+ *fill*         0x08001ea6        0x2 
  .rodata.str1.4
-                0x08001f08       0x2c ./system/src/cortexm/exception_handlers.o
+                0x08001ea8       0x2c ./system/src/cortexm/exception_handlers.o
                                  0x2a (size before relaxing)
  .rodata.AHBPrescTable
-                0x08001f34       0x10 ./system/src/cmsis/system_stm32f4xx.o
-                0x08001f34                AHBPrescTable
+                0x08001ed4       0x10 ./system/src/cmsis/system_stm32f4xx.o
+                0x08001ed4                AHBPrescTable
+ .rodata        0x08001ee4        0x8 ./src/DotMatrix_main.o
  .rodata._svfprintf_r.str1.1
-                0x08001f44       0x11 c:/users/ali ehab/desktop/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-nano-svfprintf.o)
+                0x08001eec       0x11 c:/users/ali ehab/desktop/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-nano-svfprintf.o)
  .rodata._printf_i.str1.1
-                0x08001f55       0x22 c:/users/ali ehab/desktop/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-nano-vfprintf_i.o)
+                0x08001efd       0x22 c:/users/ali ehab/desktop/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-nano-vfprintf_i.o)
  *(vtable)
  *(.eh_frame*)
  *(.glue_7)
- .glue_7        0x08001f77        0x0 linker stubs
+ .glue_7        0x08001f1f        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x08001f77        0x0 linker stubs
+ .glue_7t       0x08001f1f        0x0 linker stubs
 
-.vfp11_veneer   0x08001f78        0x0
- .vfp11_veneer  0x08001f78        0x0 linker stubs
+.vfp11_veneer   0x08001f20        0x0
+ .vfp11_veneer  0x08001f20        0x0 linker stubs
 
-.v4_bx          0x08001f78        0x0
- .v4_bx         0x08001f78        0x0 linker stubs
+.v4_bx          0x08001f20        0x0
+ .v4_bx         0x08001f20        0x0 linker stubs
 
-.iplt           0x08001f78        0x0
- .iplt          0x08001f78        0x0 ./system/src/stm32f4-hal/stm32f4xx_hal.o
+.iplt           0x08001f20        0x0
+ .iplt          0x08001f20        0x0 ./system/src/stm32f4-hal/stm32f4xx_hal.o
 
-.rel.dyn        0x08001f78        0x0
- .rel.iplt      0x08001f78        0x0 ./system/src/stm32f4-hal/stm32f4xx_hal.o
+.rel.dyn        0x08001f20        0x0
+ .rel.iplt      0x08001f20        0x0 ./system/src/stm32f4-hal/stm32f4xx_hal.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x08001f78                . = ALIGN (0x4)
-                0x08001f78                __exidx_start = .
+                0x08001f20                . = ALIGN (0x4)
+                0x08001f20                __exidx_start = .
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x08001f78                __exidx_end = .
-                0x08001f78                . = ALIGN (0x4)
-                0x08001f78                _etext = .
-                0x08001f78                __etext = .
+                0x08001f20                __exidx_end = .
+                0x08001f20                . = ALIGN (0x4)
+                0x08001f20                _etext = .
+                0x08001f20                __etext = .
 
-.data_CCMRAM    0x10000000        0x0 load address 0x08001f78
+.data_CCMRAM    0x10000000        0x0 load address 0x08001f20
  FILL mask 0xff
  *(.data.CCMRAM .data.CCMRAM.*)
                 0x10000000                . = ALIGN (0x4)
-                0x08001f78                _sidata = LOADADDR (.data)
+                0x08001f20                _sidata = LOADADDR (.data)
 
-.data           0x20000000       0x78 load address 0x08001f78
+.data           0x20000000       0x78 load address 0x08001f20
  FILL mask 0xff
                 0x20000000                _sdata = .
                 0x20000000                __data_start__ = .
@@ -4086,13 +4203,13 @@ END GROUP
                 0x20000078                _edata = .
                 0x20000078                __data_end__ = .
 
-.igot.plt       0x20000078        0x0 load address 0x08001ff0
+.igot.plt       0x20000078        0x0 load address 0x08001f98
  .igot.plt      0x20000078        0x0 ./system/src/stm32f4-hal/stm32f4xx_hal.o
 
 .bss_CCMRAM     0x10000000        0x0
  *(.bss.CCMRAM .bss.CCMRAM.*)
 
-.bss            0x20000078      0x1b0
+.bss            0x20000078       0xa0
                 0x20000078                __bss_start__ = .
                 0x20000078                _sbss = .
  *(.bss_begin .bss_begin.*)
@@ -4104,57 +4221,39 @@ END GROUP
                 0x20000080        0x1 ./system/src/newlib/_syscalls.o
  *fill*         0x20000081        0x3 
  .bss.buf.5205  0x20000084       0x80 ./system/src/diag/Trace.o
- .bss.pvCallBack
-                0x20000104       0x40 ./src/EXTI_program.o
- .bss.APP_u32ReceivedFrame
-                0x20000144       0xc8 ./src/IR.o
-                0x20000144                APP_u32ReceivedFrame
- .bss.APP_u8EdgeCounter
-                0x2000020c        0x1 ./src/IR.o
-                0x2000020c                APP_u8EdgeCounter
- .bss.APP_u8StartEdgeFlag
-                0x2000020d        0x1 ./src/IR.o
-                0x2000020d                APP_u8StartEdgeFlag
- .bss.App_u8ButtonData
-                0x2000020e        0x1 ./src/IR.o
-                0x2000020e                App_u8ButtonData
- .bss.Global_u8IntervalFlag
-                0x2000020f        0x1 ./src/SysTick_program.o
- .bss.pvCallBackFunction
-                0x20000210        0x4 ./src/SysTick_program.o
  .bss.__malloc_free_list
-                0x20000214        0x4 c:/users/ali ehab/desktop/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-nano-mallocr.o)
-                0x20000214                __malloc_free_list
+                0x20000104        0x4 c:/users/ali ehab/desktop/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-nano-mallocr.o)
+                0x20000104                __malloc_free_list
  .bss.__malloc_sbrk_start
-                0x20000218        0x4 c:/users/ali ehab/desktop/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-nano-mallocr.o)
-                0x20000218                __malloc_sbrk_start
+                0x20000108        0x4 c:/users/ali ehab/desktop/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-nano-mallocr.o)
+                0x20000108                __malloc_sbrk_start
  *(COMMON)
- COMMON         0x2000021c        0x4 ./system/src/stm32f4-hal/stm32f4xx_hal.o
-                0x2000021c                uwTick
- COMMON         0x20000220        0x4 ./system/src/newlib/_syscalls.o
-                0x20000220                errno
+ COMMON         0x2000010c        0x4 ./system/src/stm32f4-hal/stm32f4xx_hal.o
+                0x2000010c                uwTick
+ COMMON         0x20000110        0x4 ./system/src/newlib/_syscalls.o
+                0x20000110                errno
  *(.bss_end .bss_end.*)
- .bss_end       0x20000224        0x4 ./system/src/newlib/_startup.o
-                0x20000228                . = ALIGN (0x4)
-                0x20000228                __bss_end__ = .
-                0x20000228                _ebss = .
+ .bss_end       0x20000114        0x4 ./system/src/newlib/_startup.o
+                0x20000118                . = ALIGN (0x4)
+                0x20000118                __bss_end__ = .
+                0x20000118                _ebss = .
 
 .noinit_CCMRAM
  *(.noinit.CCMRAM .noinit.CCMRAM.*)
 
-.noinit         0x20000228        0x0
-                0x20000228                _noinit = .
+.noinit         0x20000118        0x0
+                0x20000118                _noinit = .
  *(.noinit .noinit.*)
-                0x20000228                . = ALIGN (0x4)
-                0x20000228                _end_noinit = .
+                0x20000118                . = ALIGN (0x4)
+                0x20000118                _end_noinit = .
                 [!provide]                PROVIDE (end, _end_noinit)
                 [!provide]                PROVIDE (_end, _end_noinit)
                 [!provide]                PROVIDE (__end, _end_noinit)
                 [!provide]                PROVIDE (__end__, _end_noinit)
 
-._check_stack   0x20000228      0x100
-                0x20000328                . = (. + _Minimum_Stack_Size)
- *fill*         0x20000228      0x100 
+._check_stack   0x20000118      0x100
+                0x20000218                . = (. + _Minimum_Stack_Size)
+ *fill*         0x20000118      0x100 
 
 .b1text
  *(.b1text)
@@ -4216,10 +4315,9 @@ END GROUP
  .comment       0x0000007e       0x7f ./system/src/cortexm/exception_handlers.o
  .comment       0x0000007e       0x7f ./system/src/cmsis/system_stm32f4xx.o
  .comment       0x0000007e       0x7f ./system/src/cmsis/vectors_stm32f401xc.o
- .comment       0x0000007e       0x7f ./src/EXTI_program.o
+ .comment       0x0000007e       0x7f ./src/DotMatrix_main.o
+ .comment       0x0000007e       0x7f ./src/DotMatrix_program.o
  .comment       0x0000007e       0x7f ./src/GPIO_program.o
- .comment       0x0000007e       0x7f ./src/IR.o
- .comment       0x0000007e       0x7f ./src/NVIC_program.o
  .comment       0x0000007e       0x7f ./src/RCC_program.o
  .comment       0x0000007e       0x7f ./src/SysTick_program.o
  .comment       0x0000007e       0x7f ./src/_initialize_hardware.o
@@ -4256,51 +4354,49 @@ END GROUP
  .ARM.attributes
                 0x00000297       0x33 ./system/src/cmsis/vectors_stm32f401xc.o
  .ARM.attributes
-                0x000002ca       0x33 ./src/EXTI_program.o
+                0x000002ca       0x33 ./src/DotMatrix_main.o
  .ARM.attributes
-                0x000002fd       0x33 ./src/GPIO_program.o
+                0x000002fd       0x33 ./src/DotMatrix_program.o
  .ARM.attributes
-                0x00000330       0x33 ./src/IR.o
+                0x00000330       0x33 ./src/GPIO_program.o
  .ARM.attributes
-                0x00000363       0x33 ./src/NVIC_program.o
+                0x00000363       0x33 ./src/RCC_program.o
  .ARM.attributes
-                0x00000396       0x33 ./src/RCC_program.o
+                0x00000396       0x33 ./src/SysTick_program.o
  .ARM.attributes
-                0x000003c9       0x33 ./src/SysTick_program.o
+                0x000003c9       0x33 ./src/_initialize_hardware.o
  .ARM.attributes
-                0x000003fc       0x33 ./src/_initialize_hardware.o
+                0x000003fc       0x33 ./src/stm32f4xx_hal_msp.o
  .ARM.attributes
-                0x0000042f       0x33 ./src/stm32f4xx_hal_msp.o
+                0x0000042f       0x2e c:/users/ali ehab/desktop/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-errno.o)
  .ARM.attributes
-                0x00000462       0x2e c:/users/ali ehab/desktop/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-errno.o)
+                0x0000045d       0x2e c:/users/ali ehab/desktop/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-impure.o)
  .ARM.attributes
-                0x00000490       0x2e c:/users/ali ehab/desktop/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-impure.o)
+                0x0000048b       0x17 c:/users/ali ehab/desktop/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-strlen.o)
  .ARM.attributes
-                0x000004be       0x17 c:/users/ali ehab/desktop/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-strlen.o)
+                0x000004a2       0x2e c:/users/ali ehab/desktop/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-vsnprintf.o)
  .ARM.attributes
-                0x000004d5       0x2e c:/users/ali ehab/desktop/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-vsnprintf.o)
+                0x000004d0       0x2e c:/users/ali ehab/desktop/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-nano-svfprintf.o)
  .ARM.attributes
-                0x00000503       0x2e c:/users/ali ehab/desktop/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-nano-svfprintf.o)
+                0x000004fe       0x2e c:/users/ali ehab/desktop/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-nano-vfprintf_i.o)
  .ARM.attributes
-                0x00000531       0x2e c:/users/ali ehab/desktop/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-nano-vfprintf_i.o)
+                0x0000052c       0x1c c:/users/ali ehab/desktop/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-memchr.o)
  .ARM.attributes
-                0x0000055f       0x1c c:/users/ali ehab/desktop/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-memchr.o)
+                0x00000548       0x2e c:/users/ali ehab/desktop/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-memcpy-stub.o)
  .ARM.attributes
-                0x0000057b       0x2e c:/users/ali ehab/desktop/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-memcpy-stub.o)
+                0x00000576       0x2e c:/users/ali ehab/desktop/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-memmove.o)
  .ARM.attributes
-                0x000005a9       0x2e c:/users/ali ehab/desktop/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-memmove.o)
+                0x000005a4       0x2e c:/users/ali ehab/desktop/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-nano-freer.o)
  .ARM.attributes
-                0x000005d7       0x2e c:/users/ali ehab/desktop/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-nano-freer.o)
+                0x000005d2       0x2e c:/users/ali ehab/desktop/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-nano-mallocr.o)
  .ARM.attributes
-                0x00000605       0x2e c:/users/ali ehab/desktop/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-nano-mallocr.o)
+                0x00000600       0x2e c:/users/ali ehab/desktop/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-nano-reallocr.o)
  .ARM.attributes
-                0x00000633       0x2e c:/users/ali ehab/desktop/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-nano-reallocr.o)
+                0x0000062e       0x2e c:/users/ali ehab/desktop/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-sbrkr.o)
  .ARM.attributes
-                0x00000661       0x2e c:/users/ali ehab/desktop/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-sbrkr.o)
+                0x0000065c       0x2e c:/users/ali ehab/desktop/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-mlock.o)
  .ARM.attributes
-                0x0000068f       0x2e c:/users/ali ehab/desktop/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-mlock.o)
- .ARM.attributes
-                0x000006bd       0x2e c:/users/ali ehab/desktop/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-nano-msizer.o)
+                0x0000068a       0x2e c:/users/ali ehab/desktop/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-nano-msizer.o)
 
 .debug
  *(.debug)
@@ -4314,7 +4410,7 @@ END GROUP
 .debug_sfnames
  *(.debug_sfnames)
 
-.debug_aranges  0x00000000      0x650
+.debug_aranges  0x00000000      0x5d0
  *(.debug_aranges)
  .debug_aranges
                 0x00000000       0xc0 ./system/src/stm32f4-hal/stm32f4xx_hal.o
@@ -4345,26 +4441,24 @@ END GROUP
  .debug_aranges
                 0x00000408       0x20 ./system/src/cmsis/vectors_stm32f401xc.o
  .debug_aranges
-                0x00000428       0x48 ./src/EXTI_program.o
+                0x00000428       0x20 ./src/DotMatrix_main.o
  .debug_aranges
-                0x00000470       0x50 ./src/GPIO_program.o
+                0x00000448       0x28 ./src/DotMatrix_program.o
  .debug_aranges
-                0x000004c0       0x38 ./src/IR.o
+                0x00000470       0x58 ./src/GPIO_program.o
  .debug_aranges
-                0x000004f8       0x50 ./src/NVIC_program.o
+                0x000004c8       0x30 ./src/RCC_program.o
  .debug_aranges
-                0x00000548       0x30 ./src/RCC_program.o
+                0x000004f8       0x78 ./src/SysTick_program.o
  .debug_aranges
-                0x00000578       0x78 ./src/SysTick_program.o
+                0x00000570       0x28 ./src/_initialize_hardware.o
  .debug_aranges
-                0x000005f0       0x28 ./src/_initialize_hardware.o
- .debug_aranges
-                0x00000618       0x38 ./src/stm32f4xx_hal_msp.o
+                0x00000598       0x38 ./src/stm32f4xx_hal_msp.o
 
 .debug_pubnames
  *(.debug_pubnames)
 
-.debug_info     0x00000000     0xd1d6
+.debug_info     0x00000000     0xce1c
  *(.debug_info .gnu.linkonce.wi.*)
  .debug_info    0x00000000     0x107e ./system/src/stm32f4-hal/stm32f4xx_hal.o
  .debug_info    0x0000107e     0x1863 ./system/src/stm32f4-hal/stm32f4xx_hal_cortex.o
@@ -4380,16 +4474,15 @@ END GROUP
  .debug_info    0x00008d41     0x115a ./system/src/cortexm/exception_handlers.o
  .debug_info    0x00009e9b      0xcfe ./system/src/cmsis/system_stm32f4xx.o
  .debug_info    0x0000ab99       0xca ./system/src/cmsis/vectors_stm32f401xc.o
- .debug_info    0x0000ac63      0x1cf ./src/EXTI_program.o
- .debug_info    0x0000ae32      0x2e0 ./src/GPIO_program.o
- .debug_info    0x0000b112      0x2da ./src/IR.o
- .debug_info    0x0000b3ec      0x2ff ./src/NVIC_program.o
- .debug_info    0x0000b6eb      0x249 ./src/RCC_program.o
- .debug_info    0x0000b934      0x25f ./src/SysTick_program.o
- .debug_info    0x0000bb93      0xd34 ./src/_initialize_hardware.o
- .debug_info    0x0000c8c7      0x90f ./src/stm32f4xx_hal_msp.o
+ .debug_info    0x0000ac63      0x10a ./src/DotMatrix_main.o
+ .debug_info    0x0000ad6d      0x2a3 ./src/DotMatrix_program.o
+ .debug_info    0x0000b010      0x321 ./src/GPIO_program.o
+ .debug_info    0x0000b331      0x249 ./src/RCC_program.o
+ .debug_info    0x0000b57a      0x25f ./src/SysTick_program.o
+ .debug_info    0x0000b7d9      0xd34 ./src/_initialize_hardware.o
+ .debug_info    0x0000c50d      0x90f ./src/stm32f4xx_hal_msp.o
 
-.debug_abbrev   0x00000000     0x2b98
+.debug_abbrev   0x00000000     0x2a09
  *(.debug_abbrev)
  .debug_abbrev  0x00000000      0x32b ./system/src/stm32f4-hal/stm32f4xx_hal.o
  .debug_abbrev  0x0000032b      0x3f1 ./system/src/stm32f4-hal/stm32f4xx_hal_cortex.o
@@ -4405,16 +4498,15 @@ END GROUP
  .debug_abbrev  0x00001bd4      0x32b ./system/src/cortexm/exception_handlers.o
  .debug_abbrev  0x00001eff      0x216 ./system/src/cmsis/system_stm32f4xx.o
  .debug_abbrev  0x00002115       0x9d ./system/src/cmsis/vectors_stm32f401xc.o
- .debug_abbrev  0x000021b2      0x112 ./src/EXTI_program.o
- .debug_abbrev  0x000022c4       0xf4 ./src/GPIO_program.o
- .debug_abbrev  0x000023b8       0xde ./src/IR.o
- .debug_abbrev  0x00002496      0x11e ./src/NVIC_program.o
- .debug_abbrev  0x000025b4       0xcc ./src/RCC_program.o
- .debug_abbrev  0x00002680      0x13a ./src/SysTick_program.o
- .debug_abbrev  0x000027ba      0x22d ./src/_initialize_hardware.o
- .debug_abbrev  0x000029e7      0x1b1 ./src/stm32f4xx_hal_msp.o
+ .debug_abbrev  0x000021b2       0xb5 ./src/DotMatrix_main.o
+ .debug_abbrev  0x00002267       0xca ./src/DotMatrix_program.o
+ .debug_abbrev  0x00002331       0xf4 ./src/GPIO_program.o
+ .debug_abbrev  0x00002425       0xcc ./src/RCC_program.o
+ .debug_abbrev  0x000024f1      0x13a ./src/SysTick_program.o
+ .debug_abbrev  0x0000262b      0x22d ./src/_initialize_hardware.o
+ .debug_abbrev  0x00002858      0x1b1 ./src/stm32f4xx_hal_msp.o
 
-.debug_line     0x00000000     0x82e0
+.debug_line     0x00000000     0x81c9
  *(.debug_line)
  .debug_line    0x00000000      0xb90 ./system/src/stm32f4-hal/stm32f4xx_hal.o
  .debug_line    0x00000b90      0xc87 ./system/src/stm32f4-hal/stm32f4xx_hal_cortex.o
@@ -4430,16 +4522,15 @@ END GROUP
  .debug_line    0x000050bc      0xb7a ./system/src/cortexm/exception_handlers.o
  .debug_line    0x00005c36      0xa32 ./system/src/cmsis/system_stm32f4xx.o
  .debug_line    0x00006668      0x103 ./system/src/cmsis/vectors_stm32f401xc.o
- .debug_line    0x0000676b      0x110 ./src/EXTI_program.o
- .debug_line    0x0000687b      0x14f ./src/GPIO_program.o
- .debug_line    0x000069ca      0x134 ./src/IR.o
- .debug_line    0x00006afe      0x111 ./src/NVIC_program.o
- .debug_line    0x00006c0f       0xe8 ./src/RCC_program.o
- .debug_line    0x00006cf7      0x19e ./src/SysTick_program.o
- .debug_line    0x00006e95      0xa25 ./src/_initialize_hardware.o
- .debug_line    0x000078ba      0xa26 ./src/stm32f4xx_hal_msp.o
+ .debug_line    0x0000676b       0xbf ./src/DotMatrix_main.o
+ .debug_line    0x0000682a      0x166 ./src/DotMatrix_program.o
+ .debug_line    0x00006990      0x168 ./src/GPIO_program.o
+ .debug_line    0x00006af8       0xe8 ./src/RCC_program.o
+ .debug_line    0x00006be0      0x19e ./src/SysTick_program.o
+ .debug_line    0x00006d7e      0xa25 ./src/_initialize_hardware.o
+ .debug_line    0x000077a3      0xa26 ./src/stm32f4xx_hal_msp.o
 
-.debug_frame    0x00000000      0xee8
+.debug_frame    0x00000000      0xe20
  *(.debug_frame)
  .debug_frame   0x00000000      0x188 ./system/src/stm32f4-hal/stm32f4xx_hal.o
  .debug_frame   0x00000188      0x17c ./system/src/stm32f4-hal/stm32f4xx_hal_cortex.o
@@ -4455,28 +4546,27 @@ END GROUP
  .debug_frame   0x000006e8      0x158 ./system/src/cortexm/exception_handlers.o
  .debug_frame   0x00000840       0x30 ./system/src/cmsis/system_stm32f4xx.o
  .debug_frame   0x00000870       0x20 ./system/src/cmsis/vectors_stm32f401xc.o
- .debug_frame   0x00000890       0x78 ./src/EXTI_program.o
- .debug_frame   0x00000908       0x80 ./src/GPIO_program.o
- .debug_frame   0x00000988       0x64 ./src/IR.o
- .debug_frame   0x000009ec       0x80 ./src/NVIC_program.o
- .debug_frame   0x00000a6c       0x40 ./src/RCC_program.o
- .debug_frame   0x00000aac       0xd8 ./src/SysTick_program.o
- .debug_frame   0x00000b84       0x4c ./src/_initialize_hardware.o
- .debug_frame   0x00000bd0       0x50 ./src/stm32f4xx_hal_msp.o
- .debug_frame   0x00000c20       0x20 c:/users/ali ehab/desktop/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-errno.o)
- .debug_frame   0x00000c40       0x4c c:/users/ali ehab/desktop/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-vsnprintf.o)
- .debug_frame   0x00000c8c       0x90 c:/users/ali ehab/desktop/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-nano-svfprintf.o)
- .debug_frame   0x00000d1c       0x60 c:/users/ali ehab/desktop/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-nano-vfprintf_i.o)
- .debug_frame   0x00000d7c       0x28 c:/users/ali ehab/desktop/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-memcpy-stub.o)
- .debug_frame   0x00000da4       0x28 c:/users/ali ehab/desktop/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-memmove.o)
- .debug_frame   0x00000dcc       0x38 c:/users/ali ehab/desktop/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-nano-freer.o)
- .debug_frame   0x00000e04       0x2c c:/users/ali ehab/desktop/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-nano-mallocr.o)
- .debug_frame   0x00000e30       0x3c c:/users/ali ehab/desktop/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-nano-reallocr.o)
- .debug_frame   0x00000e6c       0x2c c:/users/ali ehab/desktop/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-sbrkr.o)
- .debug_frame   0x00000e98       0x30 c:/users/ali ehab/desktop/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-mlock.o)
- .debug_frame   0x00000ec8       0x20 c:/users/ali ehab/desktop/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-nano-msizer.o)
+ .debug_frame   0x00000890       0x28 ./src/DotMatrix_main.o
+ .debug_frame   0x000008b8       0x4c ./src/DotMatrix_program.o
+ .debug_frame   0x00000904       0xa0 ./src/GPIO_program.o
+ .debug_frame   0x000009a4       0x40 ./src/RCC_program.o
+ .debug_frame   0x000009e4       0xd8 ./src/SysTick_program.o
+ .debug_frame   0x00000abc       0x4c ./src/_initialize_hardware.o
+ .debug_frame   0x00000b08       0x50 ./src/stm32f4xx_hal_msp.o
+ .debug_frame   0x00000b58       0x20 c:/users/ali ehab/desktop/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-errno.o)
+ .debug_frame   0x00000b78       0x4c c:/users/ali ehab/desktop/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-vsnprintf.o)
+ .debug_frame   0x00000bc4       0x90 c:/users/ali ehab/desktop/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-nano-svfprintf.o)
+ .debug_frame   0x00000c54       0x60 c:/users/ali ehab/desktop/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-nano-vfprintf_i.o)
+ .debug_frame   0x00000cb4       0x28 c:/users/ali ehab/desktop/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-memcpy-stub.o)
+ .debug_frame   0x00000cdc       0x28 c:/users/ali ehab/desktop/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-memmove.o)
+ .debug_frame   0x00000d04       0x38 c:/users/ali ehab/desktop/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-nano-freer.o)
+ .debug_frame   0x00000d3c       0x2c c:/users/ali ehab/desktop/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-nano-mallocr.o)
+ .debug_frame   0x00000d68       0x3c c:/users/ali ehab/desktop/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-nano-reallocr.o)
+ .debug_frame   0x00000da4       0x2c c:/users/ali ehab/desktop/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-sbrkr.o)
+ .debug_frame   0x00000dd0       0x30 c:/users/ali ehab/desktop/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-mlock.o)
+ .debug_frame   0x00000e00       0x20 c:/users/ali ehab/desktop/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-nano-msizer.o)
 
-.debug_str      0x00000000    0x749bd
+.debug_str      0x00000000    0x74379
  *(.debug_str)
  .debug_str     0x00000000    0x6fc5c ./system/src/stm32f4-hal/stm32f4xx_hal.o
                               0x70090 (size before relaxing)
@@ -4506,24 +4596,22 @@ END GROUP
                               0x6f802 (size before relaxing)
  .debug_str     0x00073323       0x59 ./system/src/cmsis/vectors_stm32f401xc.o
                                0x3881 (size before relaxing)
- .debug_str     0x0007337c      0x30a ./src/EXTI_program.o
-                               0x3080 (size before relaxing)
- .debug_str     0x00073686      0x394 ./src/GPIO_program.o
-                               0x3283 (size before relaxing)
- .debug_str     0x00073a1a      0x737 ./src/IR.o
-                               0x3862 (size before relaxing)
- .debug_str     0x00074151      0x261 ./src/NVIC_program.o
-                               0x35ca (size before relaxing)
- .debug_str     0x000743b2      0x284 ./src/RCC_program.o
+ .debug_str     0x0007337c      0x528 ./src/DotMatrix_main.o
+                               0x32a9 (size before relaxing)
+ .debug_str     0x000738a4      0x2ab ./src/DotMatrix_program.o
+                               0x3342 (size before relaxing)
+ .debug_str     0x00073b4f      0x1dd ./src/GPIO_program.o
+                               0x32ca (size before relaxing)
+ .debug_str     0x00073d2c      0x2a6 ./src/RCC_program.o
                                0x3410 (size before relaxing)
- .debug_str     0x00074636      0x319 ./src/SysTick_program.o
+ .debug_str     0x00073fd2      0x339 ./src/SysTick_program.o
                                0x324f (size before relaxing)
- .debug_str     0x0007494f       0x31 ./src/_initialize_hardware.o
+ .debug_str     0x0007430b       0x31 ./src/_initialize_hardware.o
                               0x6f918 (size before relaxing)
- .debug_str     0x00074980       0x3d ./src/stm32f4xx_hal_msp.o
+ .debug_str     0x0007433c       0x3d ./src/stm32f4xx_hal_msp.o
                               0x6f669 (size before relaxing)
 
-.debug_loc      0x00000000     0x236d
+.debug_loc      0x00000000     0x21ca
  *(.debug_loc)
  .debug_loc     0x00000000       0x92 ./system/src/stm32f4-hal/stm32f4xx_hal.o
  .debug_loc     0x00000092      0x73b ./system/src/stm32f4-hal/stm32f4xx_hal_cortex.o
@@ -4536,12 +4624,10 @@ END GROUP
  .debug_loc     0x000012b4      0x121 ./system/src/diag/trace_impl.o
  .debug_loc     0x000013d5      0x291 ./system/src/cortexm/exception_handlers.o
  .debug_loc     0x00001666      0x13e ./system/src/cmsis/system_stm32f4xx.o
- .debug_loc     0x000017a4       0xe8 ./src/EXTI_program.o
- .debug_loc     0x0000188c      0x6c8 ./src/GPIO_program.o
- .debug_loc     0x00001f54       0x2a ./src/IR.o
- .debug_loc     0x00001f7e      0x18f ./src/NVIC_program.o
- .debug_loc     0x0000210d      0x1b0 ./src/RCC_program.o
- .debug_loc     0x000022bd       0xb0 ./src/SysTick_program.o
+ .debug_loc     0x000017a4       0xa6 ./src/DotMatrix_program.o
+ .debug_loc     0x0000184a      0x720 ./src/GPIO_program.o
+ .debug_loc     0x00001f6a      0x1b0 ./src/RCC_program.o
+ .debug_loc     0x0000211a       0xb0 ./src/SysTick_program.o
 
 .debug_macinfo
  *(.debug_macinfo)
@@ -4559,7 +4645,7 @@ END GROUP
  *(.debug_varnames)
 OUTPUT(ARM_DRIVERS.elf elf32-littlearm)
 
-.debug_ranges   0x00000000      0x5e0
+.debug_ranges   0x00000000      0x570
  .debug_ranges  0x00000000       0xb0 ./system/src/stm32f4-hal/stm32f4xx_hal.o
  .debug_ranges  0x000000b0       0xe8 ./system/src/stm32f4-hal/stm32f4xx_hal_cortex.o
  .debug_ranges  0x00000198       0x78 ./system/src/stm32f4-hal/stm32f4xx_hal_rcc.o
@@ -4574,16 +4660,15 @@ OUTPUT(ARM_DRIVERS.elf elf32-littlearm)
  .debug_ranges  0x00000390       0x80 ./system/src/cortexm/exception_handlers.o
  .debug_ranges  0x00000410       0x18 ./system/src/cmsis/system_stm32f4xx.o
  .debug_ranges  0x00000428       0x10 ./system/src/cmsis/vectors_stm32f401xc.o
- .debug_ranges  0x00000438       0x38 ./src/EXTI_program.o
- .debug_ranges  0x00000470       0x40 ./src/GPIO_program.o
- .debug_ranges  0x000004b0       0x28 ./src/IR.o
- .debug_ranges  0x000004d8       0x40 ./src/NVIC_program.o
- .debug_ranges  0x00000518       0x20 ./src/RCC_program.o
- .debug_ranges  0x00000538       0x68 ./src/SysTick_program.o
- .debug_ranges  0x000005a0       0x18 ./src/_initialize_hardware.o
- .debug_ranges  0x000005b8       0x28 ./src/stm32f4xx_hal_msp.o
+ .debug_ranges  0x00000438       0x10 ./src/DotMatrix_main.o
+ .debug_ranges  0x00000448       0x18 ./src/DotMatrix_program.o
+ .debug_ranges  0x00000460       0x48 ./src/GPIO_program.o
+ .debug_ranges  0x000004a8       0x20 ./src/RCC_program.o
+ .debug_ranges  0x000004c8       0x68 ./src/SysTick_program.o
+ .debug_ranges  0x00000530       0x18 ./src/_initialize_hardware.o
+ .debug_ranges  0x00000548       0x28 ./src/stm32f4xx_hal_msp.o
 
-.debug_macro    0x00000000    0x15386
+.debug_macro    0x00000000    0x1533d
  .debug_macro   0x00000000      0x532 ./system/src/stm32f4-hal/stm32f4xx_hal.o
  .debug_macro   0x00000532      0xa6c ./system/src/stm32f4-hal/stm32f4xx_hal.o
  .debug_macro   0x00000f9e      0x289 ./system/src/stm32f4-hal/stm32f4xx_hal.o
@@ -4705,22 +4790,21 @@ OUTPUT(ARM_DRIVERS.elf elf32-littlearm)
  .debug_macro   0x00013f49       0x3b ./system/src/cortexm/exception_handlers.o
  .debug_macro   0x00013f84      0x4ea ./system/src/cmsis/system_stm32f4xx.o
  .debug_macro   0x0001446e       0x34 ./system/src/cmsis/vectors_stm32f401xc.o
- .debug_macro   0x000144a2       0x3f ./src/EXTI_program.o
- .debug_macro   0x000144e1       0x22 ./src/EXTI_program.o
- .debug_macro   0x00014503       0x16 ./src/EXTI_program.o
- .debug_macro   0x00014519       0x39 ./src/GPIO_program.o
- .debug_macro   0x00014552       0x2e ./src/GPIO_program.o
- .debug_macro   0x00014580       0x51 ./src/IR.o
- .debug_macro   0x000145d1       0xa0 ./src/IR.o
- .debug_macro   0x00014671      0x15a ./src/IR.o
- .debug_macro   0x000147cb       0x3e ./src/NVIC_program.o
- .debug_macro   0x00014809       0x3a ./src/NVIC_program.o
- .debug_macro   0x00014843       0x10 ./src/NVIC_program.o
- .debug_macro   0x00014853       0x3e ./src/RCC_program.o
- .debug_macro   0x00014891       0x64 ./src/RCC_program.o
- .debug_macro   0x000148f5       0x22 ./src/RCC_program.o
- .debug_macro   0x00014917       0x3f ./src/SysTick_program.o
- .debug_macro   0x00014956       0x1c ./src/SysTick_program.o
- .debug_macro   0x00014972       0x4c ./src/SysTick_program.o
- .debug_macro   0x000149be      0x4e4 ./src/_initialize_hardware.o
- .debug_macro   0x00014ea2      0x4e4 ./src/stm32f4xx_hal_msp.o
+ .debug_macro   0x000144a2       0x3f ./src/DotMatrix_main.o
+ .debug_macro   0x000144e1       0x34 ./src/DotMatrix_main.o
+ .debug_macro   0x00014515       0x1c ./src/DotMatrix_main.o
+ .debug_macro   0x00014531       0xa0 ./src/DotMatrix_main.o
+ .debug_macro   0x000145d1       0xee ./src/DotMatrix_main.o
+ .debug_macro   0x000146bf       0x52 ./src/DotMatrix_program.o
+ .debug_macro   0x00014711       0x16 ./src/DotMatrix_program.o
+ .debug_macro   0x00014727       0x7c ./src/DotMatrix_program.o
+ .debug_macro   0x000147a3       0x39 ./src/GPIO_program.o
+ .debug_macro   0x000147dc       0x2e ./src/GPIO_program.o
+ .debug_macro   0x0001480a       0x3e ./src/RCC_program.o
+ .debug_macro   0x00014848       0x64 ./src/RCC_program.o
+ .debug_macro   0x000148ac       0x22 ./src/RCC_program.o
+ .debug_macro   0x000148ce       0x3f ./src/SysTick_program.o
+ .debug_macro   0x0001490d       0x1c ./src/SysTick_program.o
+ .debug_macro   0x00014929       0x4c ./src/SysTick_program.o
+ .debug_macro   0x00014975      0x4e4 ./src/_initialize_hardware.o
+ .debug_macro   0x00014e59      0x4e4 ./src/stm32f4xx_hal_msp.o

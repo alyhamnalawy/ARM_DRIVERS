@@ -55,6 +55,9 @@
 #define LOW			0
 #define HIGH		1
 
+/*TO CHOOSE SPI*/
+#define AF05	0b0101
+
 void GPIO_voidSetPinMode(u8 Copy_u8PortName,u16 Copy_u16PinNumber,u8 Copy_u8Mode);
 void GPIO_voidSetPinOutputType(u8 Copy_u8PortName,u16 Copy_u16PinNumber,u8 Copy_u8OutputType);
 void GPIO_voidSetPinOutputSpeed(u8 Copy_u8PortName,u16 Copy_u16PinNumber,u32 Copy_u8OutSpeed);
@@ -62,5 +65,6 @@ void GPIO_voidSetPullType(u8 Copy_u8PortName ,u16 Copy_u16PinNumber ,u8 Copy_u8P
 u8 	 GPIO_u8ReadData(u8 Copy_u8PortName,u16 Copy_u16PinNumber);
 void GPIO_voidSetPinValue(u8 Copy_u8PortName,u16 Copy_u16PinNumber,u8 Copy_u8State);
 void GPIO_voidSetReset(u8 Copy_u8PortName,u16 Copy_u16PinNumber,u8 Copy_u8State);
+void GPIO_voidSetAlternativeFunction(u8 Copy_u8PortName,u16 Copy_u16PinNumber,u8 Copy_u8AlternativeFunction);
 
 #endif
